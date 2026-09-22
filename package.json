@@ -1,0 +1,12 @@
+{
+  "name": "jones-automation-exercise",
+  "version": "1.0.0",
+  "description": "Playwright automation exercise",
+  "scripts": {
+    "test": "playwright test",
+    "test:headed": "playwright test --headed"
+  },
+  "devDependencies": {
+    "@playwright/test": "^1.63.0"
+  }
+}
