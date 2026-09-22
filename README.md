@@ -15,3 +15,26 @@ Install dependencies:
 ```bash
 npm install
 npx playwright install chromium
+```
+
+Run the test:
+
+```bash
+npm test
+```
+
+To run it with the browser visible:
+
+```bash
+npm run test:headed
+```
+
+The screenshot is saved in:
+
+`screenshots/before-submit.png`
+
+## Files
+
+- `tests/contact-form.spec.js` - the test
+- `pages/ContactPage.js` - page locators and actions
+- `QA_ANALYSIS.md` - QA analysis for the second part of the exercise
